@@ -1,0 +1,53 @@
+/* Global Styles */
+body {
+  font-family: 'Poppins', 'Times New Roman', Times, serif;
+  margin: 0;
+  background-color: #3619db86;
+  color: #0e0101;
+}
+
+h1 {
+  font-size: 5rem;
+  margin-bottom: 20px;
+}
+
+.App {
+  text-align: center;
+  padding: 50px;
+}
+
+/* Header and Button Styles */
+header {
+  margin-bottom: 40px;
+}
+
+.new-jokes-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #f7f2f2;
+  background-color: #163f678c;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.new-jokes-btn:hover {
+  background-color: #05284e;
+}
+
+/* Card Grid */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+/* Spinner for Loading */
+.spinner {
+  margin-top: 50px;
+  font-size: 24px;
+}
+
+
